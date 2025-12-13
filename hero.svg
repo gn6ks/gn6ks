@@ -80,7 +80,7 @@
   </circle>
 
   <!-- Imagen central dentro del círculo -->
-  <image href="https://gn6ks.github.io/gn6ks/assets/logo.jpg" x="480" y="195" width="240" height="240" clip-path="url(#circleClip)"/>
+  <image href="assets/logo.jpg" x="480" y="195" width="240" height="240" clip-path="url(#circleClip)"/>
 
   <!-- Glow alrededor de la imagen (sin animación) -->
   <circle cx="600" cy="315" r="120" fill="white" opacity="0.1"/>
