@@ -1,0 +1,1 @@
+![Hero Card](./hero.svg)

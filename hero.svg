@@ -1,0 +1,87 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Definición de degradados -->
+  <defs>
+    <radialGradient id="grad0" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(325 680) rotate(16) scale(691 559)">
+      <stop stop-color="#00FFE0" stop-opacity="0.43"/>
+      <stop offset="1" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="grad1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(1389 355) rotate(141) scale(937 834)">
+      <stop stop-color="#FF006B" stop-opacity="0.43"/>
+      <stop offset="1" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="grad2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(626 816) rotate(-2) scale(944 733)">
+      <stop stop-color="#FF00E6" stop-opacity="0.46"/>
+      <stop offset="1" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="grad3" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(-233 428) rotate(47) scale(1119 1177)">
+      <stop stop-color="#7F00FF" stop-opacity="0.46"/>
+      <stop offset="1" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Clip circular para la imagen -->
+    <clipPath id="circleClip">
+      <circle cx="600" cy="315" r="120"/>
+    </clipPath>
+  </defs>
+
+  <!-- Fondo principal con degradados -->
+  <rect x="25" y="25" width="1150" height="580" rx="24" fill="black"/>
+  <rect x="25" y="25" width="1150" height="580" rx="24" fill="url(#grad0)" opacity="0.75"/>
+  <rect x="25" y="25" width="1150" height="580" rx="24" fill="url(#grad1)" opacity="0.75"/>
+  <rect x="25" y="25" width="1150" height="580" rx="24" fill="url(#grad2)" opacity="0.75"/>
+  <rect x="25" y="25" width="1150" height="580" rx="24" fill="url(#grad3)" opacity="0.75"/>
+
+  <!-- 14 partículas subiendo -->
+  <circle cx="50" cy="600" r="1.5" fill="white" opacity="0.7">
+    <animate attributeName="cy" values="600;30" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="120" cy="610" r="1.2" fill="white" opacity="0.7">
+    <animate attributeName="cy" values="610;25" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="200" cy="620" r="1.8" fill="white" opacity="0.7">
+    <animate attributeName="cy" values="620;20" dur="4.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="280" cy="605" r="1.4" fill="white" opacity="0.7">
+    <animate attributeName="cy" values="605;30" dur="3.9s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="360" cy="615" r="1.3" fill="white" opacity="0.7">
+    <animate attributeName="cy" values="615;25" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="440" cy="610" r="1.6" fill="white" opacity="0.7">
+    <animate attributeName="cy" values="610;30" dur="4.1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="520" cy="605" r="1.2" fill="white" opacity="0.7">
+    <animate attributeName="cy" values="605;25" dur="3.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="600" cy="620" r="1.5" fill="white" opacity="0.7">
+    <animate attributeName="cy" values="620;30" dur="3.9s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="680" cy="615" r="1.3" fill="white" opacity="0.7">
+    <animate attributeName="cy" values="615;25" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="760" cy="610" r="1.7" fill="white" opacity="0.7">
+    <animate attributeName="cy" values="610;30" dur="4.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="840" cy="605" r="1.4" fill="white" opacity="0.7">
+    <animate attributeName="cy" values="605;25" dur="3.7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="920" cy="620" r="1.2" fill="white" opacity="0.7">
+    <animate attributeName="cy" values="620;30" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1000" cy="615" r="1.5" fill="white" opacity="0.7">
+    <animate attributeName="cy" values="615;25" dur="3.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1080" cy="610" r="1.3" fill="white" opacity="0.7">
+    <animate attributeName="cy" values="610;30" dur="4.1s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Imagen central dentro del círculo -->
+  <image href="./assets/logo.jpg" x="480" y="195" width="240" height="240" clip-path="url(#circleClip)"/>
+
+  <!-- Glow alrededor de la imagen (sin animación) -->
+  <circle cx="600" cy="315" r="120" fill="white" opacity="0.1"/>
+</svg>
