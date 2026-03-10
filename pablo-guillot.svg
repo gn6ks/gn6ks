@@ -1,0 +1,145 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <style>
+    @font-face {
+      font-family: 'Poppins';
+      font-weight: 700;
+      src: url('data:font/truetype;base64,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') format('truetype');
+    }
+    @font-face {
+      font-family: 'Poppins';
+      font-weight: 300;
+      src: url('data:font/truetype;base64,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') format('truetype');
+    }
+
+    .pablo {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      font-size: 210px;
+      letter-spacing: -6px;
+      fill: url(#fg);
+    }
+    .guillot {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 300;
+      font-size: 72px;
+      letter-spacing: 30px;
+      fill: rgba(255,255,255,0.5);
+    }
+
+    /* Entrada: PABLO sube desde abajo */
+    @keyframes enterPablo {
+      from { opacity: 0; transform: translateY(24px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    /* Entrada: GUILLOT sube con delay */
+    @keyframes enterGuillot {
+      from { opacity: 0; transform: translateY(14px); }
+      to   { opacity: 0.55; transform: translateY(0); }
+    }
+    /* Línea que se expande */
+    @keyframes expandLine {
+      from { transform: scaleX(0); transform-origin: 600px 388px; }
+      to   { transform: scaleX(1); transform-origin: 600px 388px; }
+    }
+    /* Respiración Pablo */
+    @keyframes breathe {
+      0%,100% { opacity: 1; }
+      50%      { opacity: 0.9; }
+    }
+
+    .g-pablo   { animation: enterPablo   0.8s cubic-bezier(0.16,1,0.3,1) 0.1s both,
+                             breathe      9s ease-in-out 1.2s infinite; }
+    .g-guillot { animation: enterGuillot 0.8s cubic-bezier(0.16,1,0.3,1) 0.35s both; }
+    .sep-line  { stroke-dasharray: 520; animation: expandLine 1s cubic-bezier(0.16,1,0.3,1) 0.55s both; }
+  </style>
+
+  <!-- Fondo radiales originales -->
+  <radialGradient id="bg0" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+    gradientTransform="translate(325 680) rotate(16) scale(691 559)">
+    <stop stop-color="#2F2F2F" stop-opacity="0.43"/><stop offset="1" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="bg1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+    gradientTransform="translate(1389 355) rotate(141) scale(937 834)">
+    <stop stop-color="#878787" stop-opacity="0.43"/><stop offset="1" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="bg2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+    gradientTransform="translate(626 816) rotate(-2) scale(944 733)">
+    <stop stop-color="#595959" stop-opacity="0.46"/><stop offset="1" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="bg3" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+    gradientTransform="translate(-233 428) rotate(47) scale(1119 1177)">
+    <stop stop-color="#1B1B1B" stop-opacity="0.46"/><stop offset="1" stop-opacity="0"/>
+  </radialGradient>
+
+  <!-- Gradiente del texto PABLO -->
+  <linearGradient id="fg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%"   stop-color="#ffffff"/>
+    <stop offset="100%" stop-color="#c8c8cc"/>
+  </linearGradient>
+
+  <!-- Gradiente línea separadora -->
+  <linearGradient id="lg" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%"   stop-color="#fff" stop-opacity="0"/>
+    <stop offset="30%"  stop-color="#fff" stop-opacity="0.4"/>
+    <stop offset="50%"  stop-color="#fff" stop-opacity="0.6"/>
+    <stop offset="70%"  stop-color="#fff" stop-opacity="0.4"/>
+    <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+
+  <clipPath id="clip">
+    <rect x="25" y="25" width="1150" height="580" rx="28"/>
+  </clipPath>
+</defs>
+
+<g clip-path="url(#clip)">
+  <!-- Fondo -->
+  <rect width="1200" height="630" fill="#080808"/>
+  <rect width="1200" height="630" fill="url(#bg0)" opacity="0.75"/>
+  <rect width="1200" height="630" fill="url(#bg1)" opacity="0.75"/>
+  <rect width="1200" height="630" fill="url(#bg2)" opacity="0.75"/>
+  <rect width="1200" height="630" fill="url(#bg3)" opacity="0.75"/>
+
+  <!-- Partículas -->
+  <circle cx="50"   r="1.4" fill="white" opacity="0.5"><animate attributeName="cy" values="640;-10" dur="4.0s" repeatCount="indefinite" begin="0.0s"/></circle>
+  <circle cx="130"  r="1.1" fill="white" opacity="0.4"><animate attributeName="cy" values="640;-10" dur="3.6s" repeatCount="indefinite" begin="0.6s"/></circle>
+  <circle cx="215"  r="1.6" fill="white" opacity="0.5"><animate attributeName="cy" values="640;-10" dur="4.4s" repeatCount="indefinite" begin="1.1s"/></circle>
+  <circle cx="300"  r="1.2" fill="white" opacity="0.4"><animate attributeName="cy" values="640;-10" dur="3.9s" repeatCount="indefinite" begin="0.3s"/></circle>
+  <circle cx="390"  r="1.3" fill="white" opacity="0.5"><animate attributeName="cy" values="640;-10" dur="4.1s" repeatCount="indefinite" begin="1.8s"/></circle>
+  <circle cx="478"  r="1.5" fill="white" opacity="0.4"><animate attributeName="cy" values="640;-10" dur="3.8s" repeatCount="indefinite" begin="0.9s"/></circle>
+  <circle cx="565"  r="1.1" fill="white" opacity="0.5"><animate attributeName="cy" values="640;-10" dur="4.2s" repeatCount="indefinite" begin="2.2s"/></circle>
+  <circle cx="650"  r="1.4" fill="white" opacity="0.4"><animate attributeName="cy" values="640;-10" dur="4.0s" repeatCount="indefinite" begin="0.4s"/></circle>
+  <circle cx="740"  r="1.2" fill="white" opacity="0.5"><animate attributeName="cy" values="640;-10" dur="3.7s" repeatCount="indefinite" begin="1.5s"/></circle>
+  <circle cx="825"  r="1.6" fill="white" opacity="0.4"><animate attributeName="cy" values="640;-10" dur="4.3s" repeatCount="indefinite" begin="0.7s"/></circle>
+  <circle cx="910"  r="1.3" fill="white" opacity="0.5"><animate attributeName="cy" values="640;-10" dur="3.8s" repeatCount="indefinite" begin="2.0s"/></circle>
+  <circle cx="995"  r="1.1" fill="white" opacity="0.4"><animate attributeName="cy" values="640;-10" dur="4.1s" repeatCount="indefinite" begin="1.2s"/></circle>
+  <circle cx="1075" r="1.4" fill="white" opacity="0.5"><animate attributeName="cy" values="640;-10" dur="3.9s" repeatCount="indefinite" begin="0.2s"/></circle>
+  <circle cx="1155" r="1.2" fill="white" opacity="0.4"><animate attributeName="cy" values="640;-10" dur="4.2s" repeatCount="indefinite" begin="1.6s"/></circle>
+
+  <!-- PABLO -->
+  <g class="g-pablo">
+    <text x="600" y="358" text-anchor="middle" class="pablo">Pablo</text>
+  </g>
+
+  <!-- Línea separadora como rect para que el gradiente funcione -->
+  <rect x="340" y="387.5" width="520" height="1" fill="url(#lg)" class="sep-line"/>
+
+  <!-- Punto de luz que recorre la línea -->
+  <circle r="2.5" fill="white">
+    <animate attributeName="cx" values="340;860;860;340" keyTimes="0;0.45;0.55;1" dur="5s" repeatCount="indefinite" begin="1.6s"/>
+    <animate attributeName="cy" values="388;388;388;388" dur="5s" repeatCount="indefinite" begin="1.6s"/>
+    <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.08;0.92;1" dur="5s" repeatCount="indefinite" begin="1.6s"/>
+  </circle>
+
+  <!-- GUILLOT -->
+  <g class="g-guillot">
+    <text x="615" y="464" text-anchor="middle" class="guillot">Guillot</text>
+  </g>
+
+</g>
+
+<!-- Borde tarjeta -->
+<rect x="25" y="25" width="1150" height="580" rx="28"
+  fill="none" stroke="white" stroke-width="0.6" opacity="0.08"/>
+
+</svg>
